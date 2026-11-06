@@ -1,11 +1,20 @@
 # jovanhartono/tap
 
-Homebrew casks for [Argus](https://github.com/jovanhartono/argus), a fast, light file and app launcher for macOS.
+Homebrew casks and formulae for my projects.
+
+## Setup
+
+Once per Mac:
 
 ```sh
 brew tap jovanhartono/tap
 brew trust jovanhartono/tap
-brew install --cask jovanhartono/tap/argus
 ```
 
-Update with `brew upgrade --cask argus`.
+## Casks
+
+| Name | What it is | Install |
+| --- | --- | --- |
+| [Argus](https://github.com/jovanhartono/argus) | Fast, light file and app launcher for macOS | `brew install --cask jovanhartono/tap/argus` |
+
+Update everything with `brew upgrade`.
